@@ -1,0 +1,95 @@
+<main class="site-main">
+
+    <!-- ===================== PAGE HEADER ===================== -->
+    <section class="page-header">
+        <div class="container">
+            <h1 class="page-header__title">Kontakt</h1>
+            <p class="page-header__desc">Porozmawiajmy o tym, jak mogę pomóc Twojemu biznesowi. Pierwsza konsultacja jest bezpłatna.</p>
+        </div>
+    </section>
+
+    <!-- ===================== CONTACT INFO ===================== -->
+    <section class="section contact-page">
+        <div class="container">
+            <h2 class="sr-only">Dane kontaktowe</h2>
+            <div class="contact-page-grid">
+
+                <div class="contact-info-card">
+                    <div class="contact-info-icon">
+                        <svg viewBox="0 0 24 24"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+                    </div>
+                    <h3>Email</h3>
+                    <p>Najszybszy sposób kontaktu. Staram się odpowiadać w ciągu 24 godzin.</p>
+                    <a href="mailto:sztabkowski.michal@gmail.com" class="contact-info-value">sztabkowski.michal@gmail.com</a>
+                </div>
+
+                <div class="contact-info-card">
+                    <div class="contact-info-icon">
+                        <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+                    </div>
+                    <h3>Czas odpowiedzi</h3>
+                    <p>Na wiadomości email odpowiadam zazwyczaj w ciągu jednego dnia roboczego.</p>
+                    <span class="contact-info-value">Do 24 godzin</span>
+                </div>
+
+                <div class="contact-info-card">
+                    <div class="contact-info-icon">
+                        <svg viewBox="0 0 24 24"><path d="M21 15a2 2 0 01-2 2H7l-4 4V5a2 2 0 012-2h14a2 2 0 012 2z"/></svg>
+                    </div>
+                    <h3>Bezpłatna konsultacja</h3>
+                    <p>Pierwsza rozmowa jest zawsze bezpłatna i niezobowiązująca. Poznajmy się.</p>
+                    <span class="contact-info-value">Bez zobowiązań</span>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ===================== CONTACT FORM ===================== -->
+    <section class="section contact-form-section">
+        <div class="container">
+            <div class="contact-form-grid">
+                <div class="contact-form-text">
+                    <h2>Napisz do mnie</h2>
+                    <p>Opisz w kilku zdaniach czym zajmuje się Twoja firma i jakie są Twoje cele - a ja wrócę z propozycją współpracy.</p>
+                    <div class="contact-form-direct">
+                        <p>Wolisz napisać bezpośrednio?</p>
+                        <a href="mailto:sztabkowski.michal@gmail.com" class="contact-info-value">sztabkowski.michal@gmail.com</a>
+                    </div>
+                </div>
+                <div class="contact-form-wrap">
+                    <form class="contact-form" id="contact-form" action="https://api.web3forms.com/submit" method="POST" novalidate>
+                        <input type="hidden" name="access_key" value="WEB3FORMS_ACCESS_KEY">
+                        <input type="hidden" name="subject" value="Nowa wiadomość ze strony sztab-ads.pl">
+                        <input type="hidden" name="from_name" value="Formularz sztab-ads.pl">
+                        <input type="checkbox" name="botcheck" class="form-honeypot" tabindex="-1" autocomplete="off" aria-hidden="true">
+
+                        <div class="form-field">
+                            <label for="cf-name">Imię i nazwisko <span aria-hidden="true">*</span></label>
+                            <input type="text" id="cf-name" name="name" required autocomplete="name">
+                        </div>
+                        <div class="form-field">
+                            <label for="cf-email">Adres e-mail <span aria-hidden="true">*</span></label>
+                            <input type="email" id="cf-email" name="email" required autocomplete="email">
+                        </div>
+                        <div class="form-field">
+                            <label for="cf-website">Strona www firmy</label>
+                            <input type="text" id="cf-website" name="website" autocomplete="url" placeholder="np. twojafirma.pl">
+                        </div>
+                        <div class="form-field">
+                            <label for="cf-message">Wiadomość <span aria-hidden="true">*</span></label>
+                            <textarea id="cf-message" name="message" required placeholder="Czym zajmuje się Twoja firma i czego oczekujesz od kampanii?"></textarea>
+                        </div>
+                        <div class="form-field form-field--check">
+                            <input type="checkbox" id="cf-consent" name="consent" value="tak" required>
+                            <label for="cf-consent">Zgadzam się na przetwarzanie moich danych w celu odpowiedzi na wiadomość. Szczegóły w <a href="/polityka-prywatnosci/">polityce prywatności</a>. <span aria-hidden="true">*</span></label>
+                        </div>
+                        <button type="submit" class="form-submit">Wyślij wiadomość</button>
+                        <p class="form-status" role="status" aria-live="polite"></p>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+</main>

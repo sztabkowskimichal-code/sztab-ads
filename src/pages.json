@@ -1,0 +1,68 @@
+[
+    {
+        "file": "index.html",
+        "path": "/",
+        "title": "Freelancer Google Ads - Michał Sztabkowski - reklama w Google",
+        "desc": "Freelancer Google Ads - Michał Sztabkowski. Kampanie Search, Shopping i Performance Max optymalizowane pod sprzedaż i koszt pozyskania klienta. Bezpłatna konsultacja.",
+        "body_class": "home",
+        "schema": true
+    },
+    {
+        "file": "uslugi.html",
+        "path": "/uslugi/",
+        "title": "Usługi - kampanie Search, Shopping, Performance Max - SztabAds",
+        "desc": "Kampanie Google Ads: Search, Shopping, Performance Max, YouTube, remarketing i audyt konta. Sprawdź, jak mogę pomóc Twojej firmie pozyskiwać klientów."
+    },
+    {
+        "file": "o-mnie.html",
+        "path": "/o-mnie/",
+        "title": "O mnie - Michał Sztabkowski, specjalista Google Ads - SztabAds",
+        "desc": "Od 2019 roku prowadzę kampanie Google Ads dla e-commerce i firm usługowych - w Polsce i na rynkach zagranicznych. Poznaj moje doświadczenie."
+    },
+    {
+        "file": "proces.html",
+        "path": "/proces/",
+        "title": "Proces współpracy - od audytu po raportowanie - SztabAds",
+        "desc": "Jak wygląda współpraca ze mną: audyt, strategia, wdrożenie, stała optymalizacja i przejrzyste raportowanie wyników kampanii Google Ads."
+    },
+    {
+        "file": "realizacje.html",
+        "path": "/realizacje/",
+        "title": "Realizacje - wyniki kampanii Google Ads - SztabAds",
+        "desc": "Wyniki prowadzonych kampanii Google Ads: niższy koszt pozyskania klienta, wyższy ROAS i skuteczne wejścia na rynki zagraniczne."
+    },
+    {
+        "file": "cennik.html",
+        "path": "/cennik/",
+        "title": "Cennik - audyt, stała obsługa, konsultacje - SztabAds",
+        "desc": "Zasady współpracy: audyt konta Google Ads, stała obsługa kampanii i konsultacje. Umowa miesięczna, bez długich zobowiązań."
+    },
+    {
+        "file": "kontakt.html",
+        "path": "/kontakt/",
+        "title": "Kontakt - bezpłatna konsultacja Google Ads - SztabAds",
+        "desc": "Skontaktuj się ze mną - pierwsza konsultacja jest bezpłatna i niezobowiązująca. Odpowiadam w ciągu 24 godzin.",
+        "scripts": ["/js/form.js"]
+    },
+    {
+        "file": "dziekuje.html",
+        "path": "/dziekuje/",
+        "title": "Dziękuję za wiadomość - SztabAds",
+        "desc": "Twoja wiadomość została wysłana. Odezwę się w ciągu 24 godzin.",
+        "robots": "noindex, nofollow"
+    },
+    {
+        "file": "polityka-prywatnosci.html",
+        "path": "/polityka-prywatnosci/",
+        "title": "Polityka prywatności - SztabAds",
+        "desc": "Polityka prywatności serwisu sztab-ads.pl: administrator danych, cele przetwarzania, pliki cookies i prawa użytkownika."
+    },
+    {
+        "file": "404.html",
+        "path": "/404.html",
+        "out": "404.html",
+        "title": "Nie znaleziono strony - SztabAds",
+        "desc": "Strona, której szukasz, nie istnieje.",
+        "robots": "noindex, nofollow"
+    }
+]
