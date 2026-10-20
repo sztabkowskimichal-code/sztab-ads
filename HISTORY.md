@@ -18,9 +18,14 @@
 - Strona 404, sitemap.xml, robots.txt, CNAME, .nojekyll.
 - Noindex zachowany (INDEXING = False) zgodnie z decyzją z 07.2026.
 
+**Stan na 21.10.2026 (koniec sesji):**
+- Repo `sztabkowskimichal-code/sztab-ads` założone (publiczne), kod wypchnięty, `gh` zainstalowany i zalogowany.
+- GitHub Pages włączone: gałąź `main`, folder `/docs`, domena `sztab-ads.pl` przypisana, HTTPS jeszcze niewymuszony (czeka na DNS).
+- Klucz Web3Forms wstawiony do formularza.
+
 **Do zrobienia:**
-- Klucz Web3Forms (placeholder `WEB3FORMS_ACCESS_KEY` w `src/pages/kontakt.html`).
-- Rekordy DNS na domeny.tv.
+- Rekordy DNS na domeny.tv (A: 185.199.108.153, .109.153, .110.153, .111.153; CNAME www -> sztabkowskimichal-code.github.io; usunąć parking A 185.221.110.23).
+- Po propagacji: `gh api -X PUT repos/sztabkowskimichal-code/sztab-ads/pages -F https_enforced=true` i test https://sztab-ads.pl.
 - Podmiana niepotwierdzonych metryk na /realizacje/ i w sekcji "Wyniki" na home.
 
 ---
